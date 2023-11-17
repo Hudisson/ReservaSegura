@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #4caf50;
+}
+
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+
+body{
+    background-color: #382d2d;
+}
+
+header{
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #212121;
+}
+
+#logo{
+    margin-left: 15%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#menu-nav{
+    width: 40%;
+}
+
+#menu{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+#menu a{
+    display: block;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#btn-menu-mobile{
+    display: none;
+}
+
+footer{
+    background-color: #0f0101;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    margin-top: 40vh;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#div-footer-link-linkerdin{
+    margin-top: 10px;
+    display: inline;
+}
+
+#div-footer-link-github{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#github, #linkerdin{
+    font-size: 25px;
+}
+
+#github:hover{
+    color:  #e23d3d;
+}
+
+#linkerdin:hover{
+    color: #0e76a8;
+}
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.container{
+    color: #fff;
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container p{
+    margin-top: 8px;
+}
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.div-btn-calcular{
+    margin-left: 35%;
+    margin-top: 15px;
+    max-width: 300px;
+}
+
+
+.div-btn-calcular button{
+    height: 50px;
+    font-size: 18px;
+}
+
+.container-forms{
+    color: #fff;
+    max-width: 400px;
+    margin-top: 10vh;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container-forms p{
+    text-align: justify;
+}
+
+.formularios{
+    color: #fff;
+    max-width: 400px;
+    margin-top: 15%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+
+label{
+    display: block;
+    color: #e4e8f0;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.btn-defaut{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.6s ease;
+}
+
+.btn-defaut:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.btn-start{
+    margin-top: 8px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+/*Carrousel*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: transparent;
+}
+  
+  /* Position the "next button" to the right */
+.prev{
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.next{
+    right: 0;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.btnDone{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 4px;
+} 
+
+.btnDone:hover{
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #4caf50;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
